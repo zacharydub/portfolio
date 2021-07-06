@@ -64,7 +64,9 @@ export default function Contact() {
           </div>
         </div>*/}
         <form
-          netlify
+          //netlify
+          action="https://formsubmit.co/zachary.dubow@gmail.com"
+          method="POST"
           onSubmit={handleSubmit}
           name="contact"
           className="lg:w-full md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
@@ -73,7 +75,8 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            I would be happy to learn more about your company.
+            I would be happy to learn more about your company. Email me at
+            zachary.dubow@gmail.com until I configure this contact mailer :)
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
