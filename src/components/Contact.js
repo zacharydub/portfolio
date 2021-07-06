@@ -71,7 +71,7 @@ export default function Contact() {
         <form
           netlify
           action="https://formsubmit.co/zachary.dubow@gmail.com"
-          action="https://formsubmit.co/el/newabo"
+          //action="https://formsubmit.co/el/newabo"
           method="POST"
           onSubmit={handleSubmit}
           name="contact"
