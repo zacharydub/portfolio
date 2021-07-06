@@ -15,15 +15,15 @@ export default function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    alert("Message sent!");
+    //alert("Message sent!");
 
-    //fetch("/", {
-    //  method: "POST",
-    //  headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    //  body: encode({ "form-name": "contact", name, email, message }),
-    //})
-    //  .then(() => )
-    //  .catch((error) => alert(error));
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", name, email, message }),
+    })
+      .then(() => alert("Message sent!"))
+      .catch((error) => alert(error));
     setName("");
     setEmail("");
     setMessage("");
@@ -69,11 +69,12 @@ export default function Contact() {
           </div>
         </div>*/}
         <form
-          //netlify
+          netlify
           action="https://formsubmit.co/zachary.dubow@gmail.com"
+          action="https://formsubmit.co/el/newabo"
           method="POST"
           onSubmit={handleSubmit}
-          name="contact"
+          //name="contact"
           className="lg:w-full md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
