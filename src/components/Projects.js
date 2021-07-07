@@ -12,8 +12,8 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Here are a selection of apps I've built - some front-end focused,
-            others back-end focused, and full stack.
+            Here is a selection of applications I've built - some front-end
+            focused, others back-end focused, and full stack.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
