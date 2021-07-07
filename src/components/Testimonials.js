@@ -36,7 +36,7 @@ export default function Testimonials() {
           ))}
         </div>
         <div id="ftpic" style={{ display: "flex", justifyContent: "center" }}>
-          <img src="ft.jpg" alt="ft" height="90%" width="75%" />
+          <img src="ft.jpg" alt="ft" height="50%" width="50%" />
         </div>
       </div>
     </section>
