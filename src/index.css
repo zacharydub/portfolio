@@ -8,3 +8,12 @@
 #testifier:hover {
   color: blue;
 }
+#social {
+  display: flex;
+}
+.fa {
+  margin-right: 10px;
+}
+.fa:first-of-type {
+  margin-left: 50px;
+}

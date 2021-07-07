@@ -20,6 +20,20 @@ export default function Navbar() {
           <a href="#testimonials" className="mr-5 hover:text-white">
             Testimonials
           </a>
+          <div id="social">
+            <a href="https://www.linkedin.com/in/zachary-dubow/">
+              <i class="fa fa-linkedin fa-2x"> </i>
+            </a>
+            <a href="https://medium.com/launch-school/i-failed-programming-101-three-times-6fa0ea487f64">
+              <i class="fa fa-rss-square fa-2x"></i>
+            </a>
+            <a href="https://github.com/zacharydub">
+              <i class="fa fa-github fa-2x"></i>
+            </a>
+            <a href="https://twitter.com/cogent_rambling">
+              <i class="fa fa-twitter fa-2x"></i>
+            </a>
+          </div>
         </nav>
         <a
           href="#contact"

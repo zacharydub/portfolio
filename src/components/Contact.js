@@ -5,13 +5,13 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  //function encode(data) {
-  //  return Object.keys(data)
-  //    .map(
-  //      (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-  //    )
-  //    .join("&");
-  //}
+  function encode(data) {
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+      )
+      .join("&");
+  }
 
   function handleSubmit(e) {
     e.preventDefault();

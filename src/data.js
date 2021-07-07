@@ -44,14 +44,6 @@ export const testimonials = [
   },
   {
     quote:
-      "It has been excellent working together with Zach and I have a lot of respect for his skills. Intelligent, sharp and well educated Ops Manager who could always be trusted. Zach is dedicated, hard working, methodical, and very capable. He was always able to resolve difficult problems under pressure and find a way to weather any storm, even proposing new and fresh ideas. Zach is an asset to any team that wants to get things done.",
-    name: "Eze Fiszerman",
-    company: "Freightos",
-    profile: "https://www.linkedin.com/in/eze-fiszerman/",
-    role: "Head of Operations",
-  },
-  {
-    quote:
       "Zach and I studied together at Launch School. The school is well-known for the very rigorous assessments for which Zach and I prepared together. During all the study sessions, Zach was always well-organized, patient, and presented excellent communication skills. Even between our study sessions, he was always very keen to help and give advice, both about the subject we were learning about, as well as techniques he used. It was such a pleasure to work with Zach and I'm sure he will be a great asset for your company. ",
     name: "Katarina Rosiak",
     company: "Launch School",
@@ -60,7 +52,16 @@ export const testimonials = [
   },
   {
     quote:
-      "I had the honor to work with Zach since the first day he joined the company.Zach is a true hard worker and a very dedicated team member. We all knew that if Zach is working on a project it will be done the best way we can imagine. Zach took on himself so many projects and did it in the best way one can do. Zach will definitely be a huge asset to any team he joins",
+      "It has been excellent working together with Zach and I have a lot of respect for his skills. Intelligent, sharp and well educated Ops Manager who could always be trusted. Zach is dedicated, hard working, methodical, and very capable. He was always able to resolve difficult problems under pressure and find a way to weather any storm, even proposing new and fresh ideas. Zach is an asset to any team that wants to get things done.",
+    name: "Eze Fiszerman",
+    company: "Freightos",
+    profile: "https://www.linkedin.com/in/eze-fiszerman/",
+    role: "Head of Operations",
+  },
+
+  {
+    quote:
+      "I had the honor to work with Zach since the first day he joined the company. Zach is a true hard worker and a very dedicated team member. We all knew that if Zach is working on a project it will be done the best way we can imagine. Zach took on himself so many projects and did it in the best way one can do. Zach will definitely be a huge asset to any team he joins",
     name: "Avishai Zussman",
     company: "Freightos",
     profile: "https://www.linkedin.com/in/avishai-zussman-826333106/",
