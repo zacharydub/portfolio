@@ -68,6 +68,7 @@ export default function Contact() {
             </div>
           </div>
         </div>*/}
+
         <form
           netlify
           action="https://formsubmit.co/zachary.dubow@gmail.com"
@@ -78,11 +79,26 @@ export default function Contact() {
           className="lg:w-full md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Hire Me
+            Hire Me!
           </h2>
           <p className="leading-relaxed mb-5">
-            I would be happy to learn more about your company.
+            I would be happy to learn more about your company. In the meantime,
+            you can learn more about me online here at these links:
           </p>
+          <div id="social">
+            <a href="https://www.linkedin.com/in/zachary-dubow/">
+              <i class="fa fa-linkedin fa-2x"> </i>
+            </a>
+            <a href="https://medium.com/launch-school/i-failed-programming-101-three-times-6fa0ea487f64">
+              <i class="fa fa-rss-square fa-2x"></i>
+            </a>
+            <a href="https://github.com/zacharydub">
+              <i class="fa fa-github fa-2x"></i>
+            </a>
+            <a href="https://twitter.com/cogent_rambling">
+              <i class="fa fa-twitter fa-2x"></i>
+            </a>
+          </div>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name

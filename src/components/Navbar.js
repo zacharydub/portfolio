@@ -20,7 +20,7 @@ export default function Navbar() {
           <a href="#testimonials" className="mr-5 hover:text-white">
             Testimonials
           </a>
-          <div id="social">
+          <div id="social-nav">
             <a href="https://www.linkedin.com/in/zachary-dubow/">
               <i class="fa fa-linkedin fa-2x"> </i>
             </a>

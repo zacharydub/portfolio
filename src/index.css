@@ -10,6 +10,9 @@
 }
 #social {
   display: flex;
+  justify-content: center;
+  /*text-align: center;*/
+  /*flex-direction: column;*/
 }
 .fa {
   margin-right: 10px;
