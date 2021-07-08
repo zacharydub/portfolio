@@ -1,15 +1,15 @@
 export const projects = [
   {
     title: "Restaurant",
-    subtitle: "React Front-end + Firebase",
+    subtitle: "React, Firebase",
     description:
       "Food ordering app built in React that demonstrates fundamental React tooling like React-Router, Context, Lazy Loading optimization, and Firebase backend.",
     image: "./restaurant.gif",
-    link: "www.google.com",
+    link: "https://github.com/zacharydub/react-udemy/tree/master/foodOrder-l2",
   },
   {
     title: "FertiChat",
-    subtitle: "React and ExpressJS",
+    subtitle: "React, ExpressJS",
     description:
       "Medical e-commerce site specialing in male/female fertility selling testing solutions and coaching consultations. APIs with Stripe, Calendly, and 3rd party testing vendors.",
     image: "./fertichat.gif",

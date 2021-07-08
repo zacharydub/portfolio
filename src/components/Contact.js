@@ -82,8 +82,17 @@ export default function Contact() {
             Hire Me!
           </h2>
           <p className="leading-relaxed mb-5">
-            I would be happy to learn more about your company. In the meantime,
-            you can learn more about me online here at these links:
+            I would be happy to learn about your company or idea.
+            <img
+              src="light-bulb.png"
+              //height="50px"
+              width="25px"
+              style={{ display: "inline", marginLeft: "10px" }}
+            />
+            {/* <div>This icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */}
+            <br />
+            In the meantime, you can learn more about me online here at these
+            links:
           </p>
           <div id="social">
             <a href="https://www.linkedin.com/in/zachary-dubow/">
