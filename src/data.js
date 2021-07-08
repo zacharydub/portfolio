@@ -13,7 +13,7 @@ export const projects = [
     description:
       "Medical e-commerce site specialing in male/female fertility selling testing solutions and coaching consultations. APIs with Stripe, Calendly, and 3rd party testing vendors.",
     image: "./fertichat.gif",
-    link: "https://fertichat-wip.herokuapp.com",
+    link: "https://github.com/zacharydub/fertichat",
   },
   {
     title: "Contact Manager & ToDos Lists",
