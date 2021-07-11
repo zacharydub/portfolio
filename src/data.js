@@ -69,7 +69,7 @@ export const testimonials = [
   },
   {
     quote:
-      "During the time I worked with Zack I enjoyed watching him excel in his role in customer success and operations. The dedication and commitment he brought with him to the job every day was inspiring. The team of CSMs he built also exemplified his strong work ethic. He was a pleasure to be around and I know he will bring the same passion anywhere he goes.",
+      "During the time I worked with Zach I enjoyed watching him excel in his role in customer success and operations. The dedication and commitment he brought with him to the job every day was inspiring. The team of CSMs he built also exemplified his strong work ethic. He was a pleasure to be around and I know he will bring the same passion anywhere he goes.",
     name: "Noah Alhadeff",
     company: "Sisense",
     profile: "https://www.linkedin.com/in/noahalhadeff/",

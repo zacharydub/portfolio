@@ -12,10 +12,10 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            I am a full stack web developer. I favor JavaScript and its frontend
-            frameworks React and Angular, built with HTML and CSS fundamentals.
-            I use NodeJS/ExpressJS on the backend, and PostgreSQL and MongoDB
-            for data.
+            I am a full stack web developer and I love learning new things
+            daily. Currently I favor JavaScript and its frontend frameworks
+            React and Angular. I use NodeJS/ExpressJS for the backend,
+            PostgreSQL and MongoDB for data.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
