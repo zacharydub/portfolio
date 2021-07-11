@@ -161,8 +161,8 @@ export default function Contact() {
           </button>
           <div>
             P.S. In case this shiny new email tool isn't working and/or I
-            haven't responded to you within 48 weekdays hours, feel free to
-            reach out via one of my online accounts linked above.
+            haven't responded to you within 48 weekday hours, feel free to reach
+            out via my online accounts linked above.
           </div>
         </form>
       </div>

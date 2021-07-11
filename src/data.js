@@ -73,7 +73,7 @@ export const testimonials = [
     name: "Noah Alhadeff",
     company: "Sisense",
     profile: "https://www.linkedin.com/in/noahalhadeff/",
-    role: "Sales Manager",
+    role: "Sales Enablement Manager",
   },
   {
     quote:
