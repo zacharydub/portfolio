@@ -156,6 +156,11 @@ export default function Contact() {
             Submit
           </button>
         </form>
+        <div>
+          P.S. In case this shiny new email tool isn't working and/or I haven't
+          responded to you within 48 weekdays hours, feel free to reach out via
+          one of my online accounts linked above.
+        </div>
       </div>
     </section>
   );

@@ -61,7 +61,7 @@ export const testimonials = [
 
   {
     quote:
-      "I had the honor to work with Zach since the first day he joined the company. Zach is a true hard worker and a very dedicated team member. We all knew that if Zach is working on a project it will be done the best way we can imagine. Zach took on himself so many projects and did it in the best way one can do. Zach will definitely be a huge asset to any team he joins",
+      "I had the honor to work with Zach since the first day he joined the company. Zach is a true hard worker and a very dedicated team member. We all knew that if Zach is working on a project it will be done the best way we can imagine. Zach took on himself so many projects and did it in the best way one can do. Zach will definitely be a huge asset to any team he joins.",
     name: "Avishai Zussman",
     company: "Freightos",
     profile: "https://www.linkedin.com/in/avishai-zussman-826333106/",
