@@ -1,6 +1,14 @@
 import React, { useState } from "react";
+import { useForm } from '@formcarry/react';
 
 export default function Contact() {
+  const {state, submit} = useForm({
+    id: '6y3x8oGUnI5'
+  });
+  if (state.submitted) {
+    return <div>Thank you! We received your submission.</div>;
+  }
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -13,25 +21,25 @@ export default function Contact() {
       .join("&");
   }
 
-  function handleSubmit(e) {
-    e.preventDefault();
-
-    if (!name || !email || !message) {
-      alert("Missing fields");
-      return;
-    }
-
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
-    })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
-    setName("");
-    setEmail("");
-    setMessage("");
-  }
+//  function handleSubmit(e) {
+//    e.preventDefault();
+//
+//    if (!name || !email || !message) {
+//      alert("Missing fields");
+//      return;
+//    }
+//
+//    fetch("/", {
+//      method: "POST",
+//      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+//      body: encode({ "form-name": "contact", name, email, message }),
+//    })
+//      .then(() => alert("Message sent!"))
+//      .catch((error) => alert(error));
+//    setName("");
+//    setEmail("");
+//    setMessage("");
+//  }
 
   return (
     <section id="contact" className="relative">
@@ -74,16 +82,18 @@ export default function Contact() {
         </div>
 
         <form
-          netlify
-          action="https://formsubmit.co/zachary.dubow@gmail.com"
+          //netlify
+          //action="https://formsubmit.co/zachary.dubow@gmail.com"
           //action="https://formsubmit.co/el/newabo"
-          method="POST"
-          onSubmit={handleSubmit}
-          name="contact"
+          //action="https://formcarry.com/s/6y3x8oGUnI5"
+          //accept-charset="UTF-8"
+          //method="POST"
+          onSubmit={submit}
+          //name="contact"
           className="lg:w-full md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Hire Me!
+            Contact Me
           </h2>
           <p className="leading-relaxed mb-5">
             I would be happy to learn about your company or idea.
