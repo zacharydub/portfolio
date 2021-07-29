@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { useForm } from '@formcarry/react';
 
 export default function Contact() {
-  //const {state, submit} = useForm({
-  //  id: '6y3x8oGUnI5'
-  //});
-  if (state.submitted) {
-    return <div>Thank you! We received your submission.</div>;
-  }
+  const {state, submit} = useForm({
+    id: '6y3x8oGUnI5'
+  });
+  //if (state.submitted) {
+  //  return <div>Submission received!</div>;
+  //}
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -22,23 +22,26 @@ export default function Contact() {
   }
 
   function handleSubmit(e) {
-    e.preventDefault();
+    submit()
+    //e.preventDefault();
 
     if (!name || !email || !message) {
       alert("Missing fields");
       return;
     }
 
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
-    })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
+    //fetch("/", {
+    //  method: "POST",
+    //  headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    //  body: encode({ "form-name": "contact", name, email, message }),
+    //})
+    //  .then(() => alert("Message sent!"))
+    //  .catch((error) => alert(error));
     setName("");
     setEmail("");
     setMessage("");
+    //submit()
+    alert('Submission received!')
   }
 
   return (
@@ -62,9 +65,9 @@ export default function Contact() {
           //netlify
           //action="https://formsubmit.co/zachary.dubow@gmail.com"
           //action="https://formsubmit.co/el/newabo"
-          //action="https://formcarry.com/s/6y3x8oGUnI5"
+          action="https://formcarry.com/s/6y3x8oGUnI5"
           //accept-charset="UTF-8"
-          action="mailto:zachary.dubow@gmail.com"
+          //action="mailto:zachary.dubow@gmail.com"
           method="POST"
           onSubmit={handleSubmit}
           name="contact"
