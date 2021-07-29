@@ -13,23 +13,23 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  function encode(data) {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  }
+  //function encode(data) {
+  //  return Object.keys(data)
+  //    .map(
+  //      (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+  //    )
+  //    .join("&");
+  //}
 
   function handleSubmit(e) {
-    submit()
+
     //e.preventDefault();
 
     if (!name || !email || !message) {
       alert("Missing fields");
       return;
     }
-
+    submit()
     //fetch("/", {
     //  method: "POST",
     //  headers: { "Content-Type": "application/x-www-form-urlencoded" },
