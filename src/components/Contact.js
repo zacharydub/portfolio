@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { useForm } from '@formcarry/react';
 
 export default function Contact() {
-  const {state, submit} = useForm({
-    id: '6y3x8oGUnI5'
-  });
+  //const {state, submit} = useForm({
+  //  id: '6y3x8oGUnI5'
+  //});
   if (state.submitted) {
     return <div>Thank you! We received your submission.</div>;
   }
@@ -21,25 +21,25 @@ export default function Contact() {
       .join("&");
   }
 
-//  function handleSubmit(e) {
-//    e.preventDefault();
-//
-//    if (!name || !email || !message) {
-//      alert("Missing fields");
-//      return;
-//    }
-//
-//    fetch("/", {
-//      method: "POST",
-//      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-//      body: encode({ "form-name": "contact", name, email, message }),
-//    })
-//      .then(() => alert("Message sent!"))
-//      .catch((error) => alert(error));
-//    setName("");
-//    setEmail("");
-//    setMessage("");
-//  }
+  function handleSubmit(e) {
+    e.preventDefault();
+
+    if (!name || !email || !message) {
+      alert("Missing fields");
+      return;
+    }
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", name, email, message }),
+    })
+      .then(() => alert("Message sent!"))
+      .catch((error) => alert(error));
+    setName("");
+    setEmail("");
+    setMessage("");
+  }
 
   return (
     <section id="contact" className="relative">
@@ -56,29 +56,6 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/d/embed?mid=1HGCV51R8lmS3NfpPRBj8WVOJo2g&msa=0&ie=UTF8&t=m&ll=32.259265%2C35.17822299999999&spn=2.322528%2C4.389038&z=8&output=embed"
           />
-          {/*<div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                ADDRESS
-              </h2>
-              <p className="mt-1">
-                97 Warren St. <br />
-                New York, NY 10007
-              </p>
-            </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                EMAIL
-              </h2>
-              <a className="text-indigo-400 leading-relaxed">
-                reedbarger@email.com
-              </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
-              </h2>
-              <p className="leading-relaxed">123-456-7890</p>
-            </div>
-          </div>*/}
         </div>
 
         <form
@@ -87,9 +64,10 @@ export default function Contact() {
           //action="https://formsubmit.co/el/newabo"
           //action="https://formcarry.com/s/6y3x8oGUnI5"
           //accept-charset="UTF-8"
-          //method="POST"
-          onSubmit={submit}
-          //name="contact"
+          action="mailto:zachary.dubow@gmail.com"
+          method="POST"
+          onSubmit={handleSubmit}
+          name="contact"
           className="lg:w-full md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
