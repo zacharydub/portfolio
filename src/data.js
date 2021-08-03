@@ -5,7 +5,7 @@ export const projects = [
     description:
       "Food ordering app built in React that demonstrates fundamental React tooling like React-Router, Context, Lazy Loading optimization, and Firebase backend.",
     image: "./restaurant.gif",
-    link: "https://github.com/zacharydub/react-udemy/tree/master/foodOrder-l2",
+    link: "https://foodorder-l2.web.app",
   },
   {
     title: "FertiChat",
@@ -13,7 +13,7 @@ export const projects = [
     description:
       "Medical e-commerce site specialing in male/female fertility selling testing solutions and coaching consultations. APIs with Stripe, Calendly, and 3rd party testing vendors.",
     image: "./fertichat.gif",
-    link: "https://github.com/zacharydub/fertichat",
+    link: "https://en.wikipedia.org/wiki/Non-disclosure_agreement",
   },
   {
     title: "Contact Manager & ToDos Lists",
