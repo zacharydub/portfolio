@@ -8,7 +8,7 @@ export default function About() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi there 👋 I'm Zach.
             <br />
-            <br className="hidden lg:inline-block" />I love to build software.
+            <br className="hidden lg:inline-block" />I love building.
           </h1>
           <p className="mb-8 leading-relaxed">
             I am a self-taught full stack web developer with a degree in
