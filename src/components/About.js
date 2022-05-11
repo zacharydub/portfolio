@@ -6,14 +6,12 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi there 👋 I'm Zach.
+            Hi there 👋 I'm Zach
             <br />
-            <br className="hidden lg:inline-block" />I love building.
+            <br className="hidden lg:inline-block" />I have a broad business and technical skill set
           </h1>
           <p className="mb-8 leading-relaxed">
-            I am a self-taught full stack web developer with a degree in
-            Economics and experience managing customer service and operations
-            teams in hi-tech.
+            I've managed customer success and operations teams in hi-tech and I have experience in sales, product, and writing.  I also completed an intensive bootcamp in full stack web development and worked on several projects.
           </p>
           <div className="flex justify-center">
             <a
