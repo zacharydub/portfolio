@@ -10,8 +10,9 @@ export default function About() {
             <br />
             <br className="hidden lg:inline-block" />I have a broad business and technical skill set
           </h1>
+          <h2></h2>
           <p className="mb-8 leading-relaxed">
-            I've managed customer success and operations teams in hi-tech and I have experience in sales, product, and writing.  I also completed an intensive bootcamp in full stack web development and worked on several projects.
+            I've managed customer success and operations teams in hi-tech and I have experience in sales, product, and writing.  I also completed an intensive bootcamp in full stack web development with some projects showcased below.
           </p>
           <div className="flex justify-center">
             <a
