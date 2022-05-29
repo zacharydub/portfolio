@@ -25,7 +25,7 @@ export default function Navbar() {
               <i class="fa fa-linkedin fa-2x"> </i>
             </a>
             <a href="https://medium.com/launch-school/i-failed-programming-101-three-times-6fa0ea487f64">
-              <i class="fa fa-rss-square fa-2x"></i>
+              <i class="fa fa-medium fa-2x"></i>
             </a>
             <a href="https://github.com/zacharydub">
               <i class="fa fa-github fa-2x"></i>
