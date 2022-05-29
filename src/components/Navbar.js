@@ -30,9 +30,9 @@ export default function Navbar() {
             <a href="https://github.com/zacharydub">
               <i class="fa fa-github fa-2x"></i>
             </a>
-            <a href="https://twitter.com/cogent_rambling">
+            {/*<a href="https://twitter.com/cogent_rambling">
               <i class="fa fa-twitter fa-2x"></i>
-            </a>
+            </a>*/}
           </div>
         </nav>
         <a

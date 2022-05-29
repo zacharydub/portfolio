@@ -99,9 +99,9 @@ export default function Contact() {
             <a href="https://github.com/zacharydub">
               <i class="fa fa-github fa-2x"></i>
             </a>
-            <a href="https://twitter.com/cogent_rambling">
+            {/*<a href="https://twitter.com/cogent_rambling">
               <i class="fa fa-twitter fa-2x"></i>
-            </a>
+            </a>*/}
           </div>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
